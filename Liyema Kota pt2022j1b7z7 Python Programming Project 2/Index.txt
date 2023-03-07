@@ -1,0 +1,19 @@
+The following page details the instructions and requirements of the project
+
+Project description: The following application is a client-server application for an industrial store that will be used by customers at the till.
+The application features a client side application that will be used by customers to register customers, register items, buy items and request an invoice
+The client application can be used to peform various functions however communication with the database will be done by the server. The client
+application will request data from the database from the server which will be responsible for updating and reading directly from the database.
+
+Application requirements:
+-MySQL Workbench
+-Python Interpreter preferebly version 9 and above
+-MySQL server
+-MySQL Python Connector
+-Visual Studio Code (VS Code)
+
+How to run the application:
+1. Create the database by running the "industry_db_creation.sql" script in Workbench
+2. Open VS Code and run the server program "project_server.py" in the VS Code terminal.
+3. Open a second terminal and run the client program
+4. Enjoy
